@@ -1,0 +1,21 @@
+# This file is a part of Text Will Be Text plugin and should be placed in data/init folder.
+# See README for documentation.
+
+# Examples - will show coffins instead of some tiles and will make them red on green background
+# [TILESET:font.png:fullscreenfont.png:map]
+# [TILESET:neoren_16x16.png:neoren_16x16.png:gfx]
+
+# [OVERRIDE:177:B:WINDOW_ANY:WindowGem::map:48:3:3]
+# [OVERRIDE:150:B:WORKSHOP_CUSTOM::SOAP_MAKER:map:48:5:3]
+
+# Items
+[OVERRIDE:240:I:BAR:::map:29::]
+[OVERRIDE:15:I:ROUGH:::map:138::]
+
+# Building
+[OVERRIDE:176:B:WAGON:::map:240::]
+[OVERRIDE:178:B:WAGON:::map:240:15:]
+
+# Tiles
+[OVERRIDE:34:T:Shrub:map:28::]
+[OVERRIDE:34:T:ShrubDead:map:28::]
