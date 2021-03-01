@@ -11,11 +11,18 @@
 # Items
 [OVERRIDE:240:I:BAR:::map:29::]
 [OVERRIDE:15:I:ROUGH:::map:138::]
+# Change grate to cage tile
+#[OVERRIDE:35:I:GRATE:GRATE::map:19::]
 
 # Building
 [OVERRIDE:176:B:WAGON:::map:240::]
 [OVERRIDE:178:B:WAGON:::map:240:15:]
+# Change grate to cage tile
+#[OVERRIDE:35:B:GRATE_FLOOR:GrateFloor::map:19::]
+#[OVERRIDE:35:B:GRATE_WALL:GrateWall::map:19::]
 
 # Tiles
 [OVERRIDE:34:T:Shrub:map:28::]
 [OVERRIDE:34:T:ShrubDead:map:28::]
+[OVERRIDE:59:T:TreeTwigs:map:171::]
+[OVERRIDE:37:T:TreeTwigs:map:28::]
