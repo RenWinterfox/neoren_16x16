@@ -14,7 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Crutch
 
 ### Minor Tweaks
-- Wheelbarrel
+- Wheelbarrow
 - Cage
 - Ladle/Dancer
 - Armor Stand
