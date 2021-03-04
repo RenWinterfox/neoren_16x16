@@ -17,7 +17,7 @@
 # Building
 [OVERRIDE:176:B:WAGON:::map:240::]
 [OVERRIDE:178:B:WAGON:::map:240:15:]
-[OVERRIDE:205:B:FARM_PLOT:::3:61]
+[OVERRIDE:205:B:FARM_PLOT:::map:61]
 # Change grate to cage tile
 #[OVERRIDE:35:B:GRATE_FLOOR:GrateFloor::map:19::]
 #[OVERRIDE:35:B:GRATE_WALL:GrateWall::map:19::]
