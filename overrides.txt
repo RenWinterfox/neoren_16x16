@@ -1,28 +1,91 @@
 # This file is a part of Text Will Be Text plugin and should be placed in data/init folder.
 # See README for documentation.
 
-# Examples - will show coffins instead of some tiles and will make them red on green background
-# [TILESET:font.png:fullscreenfont.png:map]
-# [TILESET:neoren_16x16.png:neoren_16x16.png:gfx]
+[TILESET:neoren-16x16-extras.png:neoren-16x16-extras.png:extra]
 
-# [OVERRIDE:177:B:WINDOW_ANY:WindowGem::map:48:3:3]
-# [OVERRIDE:150:B:WORKSHOP_CUSTOM::SOAP_MAKER:map:48:5:3]
-
+#
 # Items
-[OVERRIDE:240:I:BAR:::map:29::]
-[OVERRIDE:15:I:ROUGH:::map:138::]
-# Change grate to cage tile
-#[OVERRIDE:35:I:GRATE:GRATE::map:19::]
+#
+[OVERRIDE:240:I:BAR:::map:29]
+[OVERRIDE:15:I:ROUGH:::map:138]
+[OVERRIDE:9:I:MILLSTONE:::extra:14]
 
-# Building
-[OVERRIDE:176:B:WAGON:::map:240::]
-[OVERRIDE:178:B:WAGON:::map:240:15:]
-[OVERRIDE:205:B:FARM_PLOT:::map:61]
-# Change grate to cage tile
-#[OVERRIDE:35:B:GRATE_FLOOR:GrateFloor::map:19::]
-#[OVERRIDE:35:B:GRATE_WALL:GrateWall::map:19::]
+## Change grate to cage tile
+#[OVERRIDE:35:I:GRATE:GRATE::map:19]
 
+## Floodgate
+[OVERRIDE:88:I:FLOODGATE:FLOODGATE::extra:20]
+
+## Webs
+[OVERRIDE:15:I:ANY_WEBS:::extra:25]
+
+#
+# Buildings
+#
+[OVERRIDE:176:B:WAGON:::map:240]
+[OVERRIDE:178:B:WAGON:::map:240:15]
+[OVERRIDE:205:B:FARM_PLOT:::extra:3]
+
+## Change grate to cage tile
+#[OVERRIDE:35:B:GRATE_FLOOR:GrateFloor::map:19]
+#[OVERRIDE:35:B:GRATE_WALL:GrateWall::map:19]
+
+## Gear Assembly
+[OVERRIDE:15:B:GEAR_ASSEMBLY:GearAssembly::extra:4]
+[OVERRIDE:42:B:GEAR_ASSEMBLY:GearAssembly::extra:5]
+
+## Water Wheel
+[OVERRIDE:179:B:WATER_WHEEL:WaterWheel::extra:6]
+[OVERRIDE:186:B:WATER_WHEEL:WaterWheel::extra:7]
+[OVERRIDE:196:B:WATER_WHEEL:WaterWheel::extra:8]
+[OVERRIDE:205:B:WATER_WHEEL:WaterWheel::extra:9]
+
+## Windmill
+[OVERRIDE:179:B:WINDMILL:Windmill::extra:6]
+[OVERRIDE:186:B:WINDMILL:Windmill::extra:7]
+[OVERRIDE:196:B:WINDMILL:Windmill::extra:8]
+[OVERRIDE:205:B:WINDMILL:Windmill::extra:9]
+
+## Horizontal Axle
+[OVERRIDE:179:B:AXLE_HORIZONTAL:AxleHorizontal::extra:10]
+[OVERRIDE:186:B:AXLE_HORIZONTAL:AxleHorizontal::extra:11]
+[OVERRIDE:196:B:AXLE_HORIZONTAL:AxleHorizontal::extra:12]
+[OVERRIDE:205:B:AXLE_HORIZONTAL:AxleHorizontal::extra:13]
+
+## Millstone
+[OVERRIDE:9:B:WORKSHOP_MILLSTONE:Workshop::extra:14]
+[OVERRIDE:111:B:WORKSHOP_MILLSTONE:Workshop::extra:15]
+
+## Bridge
+[OVERRIDE:201:B:BRIDGE:::extra:0] # Upper Left
+[OVERRIDE:205:B:BRIDGE:::extra:1] # Horizontal
+[OVERRIDE:187:B:BRIDGE:::extra:2] # Upper Right
+#[OVERRIDE:111:B:BRIDGE:::extra:56] # ??? 'o'
+[OVERRIDE:43:B:BRIDGE:::extra:19] # Center 
+[OVERRIDE:186:B:BRIDGE:::extra:16] # Vertical
+[OVERRIDE:210:B:BRIDGE:::extra:17 ]# Top
+[OVERRIDE:208:B:BRIDGE:::extra:18] # Bottom
+[OVERRIDE:206:B:BRIDGE:::extra:79] # Single
+#[OVERRIDE:247:B:BRIDGE:::extra:84] # ???
+[OVERRIDE:200:B:BRIDGE:::extra:32] # Bottom Left
+[OVERRIDE:188:B:BRIDGE:::extra:33] # Bottome Right
+[OVERRIDE:198:B:BRIDGE:::extra:34] # Left
+[OVERRIDE:181:B:BRIDGE:::extra:35] # Right
+
+## Floodgate
+[OVERRIDE:88:B:FLOODGATE:Floodgate::extra:20]
+
+## Screw Pump
+[OVERRIDE:246:B:SCREW_PUMP:::extra:23]
+[OVERRIDE:37:B:SCREW_PUMP:::extra:24]
+
+## Doors
+[OVERRIDE:186:B:DOOR:Door::extra:21]
+[OVERRIDE:240:B:DOOR:Door::extra:22]
+
+#
 # Tiles
+#
 [OVERRIDE:34:T:Shrub:map:28::]
 [OVERRIDE:34:T:ShrubDead:map:28::]
 [OVERRIDE:59:T:TreeTwigs:map:171::]
